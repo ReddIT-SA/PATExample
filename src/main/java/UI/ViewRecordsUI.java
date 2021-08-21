@@ -65,7 +65,7 @@ public class ViewRecordsUI extends javax.swing.JFrame {
                 mainPanel.setBackground(new java.awt.Color(204, 204, 204));
                 mainPanel.setPreferredSize(new java.awt.Dimension(410, 300));
 
-                iconLabel.setIcon(new javax.swing.ImageIcon("C:\\Users\\Cliftonb\\Documents\\NetBeansProjects\\PATExample10\\icons\\records.png")); // NOI18N
+                iconLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/records.png"))); // NOI18N
 
                 headerLabel.setFont(new java.awt.Font("Castellar", 0, 24)); // NOI18N
                 headerLabel.setForeground(new java.awt.Color(0, 0, 0));

@@ -50,7 +50,7 @@ public class MainMenuUI extends javax.swing.JFrame {
                 jPanel1.setBackground(new java.awt.Color(204, 204, 204));
                 jPanel1.setPreferredSize(new java.awt.Dimension(400, 300));
 
-                iconLabel.setIcon(new javax.swing.ImageIcon("C:\\Users\\Cliftonb\\Documents\\NetBeansProjects\\PATExample10\\icons\\classroom.png")); // NOI18N
+                iconLabel.setIcon(new javax.swing.ImageIcon(getClass().getResource("/images/classroom.png"))); // NOI18N
 
                 headerLabel.setFont(new java.awt.Font("Castellar", 0, 24)); // NOI18N
                 headerLabel.setForeground(new java.awt.Color(0, 0, 0));
