@@ -7,6 +7,11 @@ This folder contains all the text files or databases that will be used to store 
 #### icons
 This folder contains all the images that are used in the UI. I found that 64x64 images are a good size for use as icons. You cannot resize the images within the code, so make sure to resize the images within an image editor to the appropriate size before using it in your program.
 
+Visit: https://www.flaticon.com/ for free icons
+* 64 x 64 are a good size for icons in a UI
+* 16 x 16 are a good size for .exe icons (you can convert a .png to a .ico at https://cloudconvert.com/png-to-ico
+
+
 #### src
 This folder contains all the source code. It is split into two packages: backend and UI. 
 * backend - this code is responsible for the manipulation of the data in the permanent storage and all program logic.
@@ -29,6 +34,9 @@ Project is created with:
 * Download the source code and add it to Netbeans as a Netbeans project (I recommend cloning it with GitHub).
 * Right click on the project in NetBeans and select 'Clean and Build'. This creates a .jar of the project in the PATExampleGr10/target directory.
 * The above .jar file contains all the src code only.
-* The launch4j packages the .jar into a single an .exe file. Note the settings below.
+* The launch4j packages the .jar into a single an .exe file. Note the settings below. There are FOUR inputs you need to add to the program before clicking the gear button.
 
-![Screenshot](Capture.PNG)
+![Screenshot](Capture1.PNG)
+
+![Screenshot](Capture1.PNG)
+
