@@ -38,5 +38,8 @@ Project is created with:
 
 ![Screenshot](Capture1.PNG)
 
-![Screenshot](Capture1.PNG)
+![Screenshot](Capture2.PNG)
 
+* Note this exe only contains the source code. You must have the **data** and **icons** folders in the same folder as the .exe for your program to work.
+
+![Screenshot](Capture3.PNG)
