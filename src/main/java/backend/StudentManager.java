@@ -18,6 +18,7 @@ import java.util.Scanner;
  */
 public class StudentManager {
 
+	//READ COMMENTS IN ASSESSMENT - this class is almost a duplicate
 	private static String fileName = "data//students.txt";
 
 	public static String getStudents() {

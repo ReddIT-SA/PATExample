@@ -18,6 +18,7 @@ import java.util.Scanner;
  */
 public class RecordManager {
 
+	//READ COMMENTS IN ASSESSMENT MANAGER FIRST
 	private static String fileName = "data//records.txt";
 
 	public static String getStudentRecords(String student) {
@@ -29,7 +30,12 @@ public class RecordManager {
 				String line = sc.nextLine();
 
 				Scanner linesc = new Scanner(line).useDelimiter("#");
+				//Use the scanner to get the student name from
+				//the line
 				String currentStudent = linesc.next();
+				//only if the student is the student we are looking
+				//for should you add the record to the output
+				//(excluding the students actual name
 				if (currentStudent.equalsIgnoreCase(student)) {
 					output += linesc.next() + " : " + linesc.next() + "\n";
 				}
@@ -51,9 +57,5 @@ public class RecordManager {
 		} catch (IOException ex) {
 			System.out.println("Could not write to file");
 		}
-	}
-
-	public static void deleteRecord() {
-		//to do
 	}
 }
