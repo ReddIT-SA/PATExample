@@ -1,6 +1,12 @@
 # PATExample
 
-## Folder Structure
+* [Project Folder Structure](#project-folder-structure)
+* [Comments](#comments)
+* [Project Documentation](#project-documentation)
+* [Creating an exe](#creating-an-exe)
+
+
+## Project Folder Structure
 #### data
 This folder contains all the text files or databases that will be used to store the data of the running program.
 
@@ -21,6 +27,36 @@ This folder contains all the source code. It is split into two packages: backend
 **Read all the comments** in the code. I have tried as clearly as possible to spell out what each section of the code does.
 
 The **AssessmentManager** in the backend contains most of the backend comments as the other backend classes are fairly similar.
+
+## Project Docuementation
+See the Specification and Design pdf for an example on how to do certain parts of your design document
+
+Note the foloowing:
+#### Summary
+* Don't give a life story. 
+* Spell out the app you want to create, what it will be able to do, what it will store in permanent storage.
+* Only have a little on why you want to do this (about 3 sentences).
+
+#### Program specs
+* This is what your program does per section.
+* DO NOT have specifics of the implementation. 
+* Leave it in bullet point. 
+* Do not talk about buttons or any UI components, just ask, "What must that section do?" 
+
+#### Storage specs
+* What data is going to be used by your program? 
+* Do you as a programmer generate the data? e.g. questions in a riddle game 
+* Or is it only user generated data? e.g. the tracking of student marks.
+* List all the things that your program needs that is not code.
+
+#### Interface design (input and output)
+* List all UI components that you will use and the actions that they perform (all buttons, drop down lists, toggle buttons etc.)
+* Mention how certain front end components (UI) will be populated (where does everything that is not source code come from?)
+* Mention how the front end will pass data to the back end (where is all the data entered going to go). 
+
+#### Program flow (processing and data storage)
+* Show in pseudo-code/plain English how the back end will interact with the permanent storage to populate the front end.
+* Write out all your important algorithms in this section.
 
 ## Tools
 Project is created with:
