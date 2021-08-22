@@ -28,7 +28,7 @@ This folder contains all the source code. It is split into two packages: backend
 
 The **AssessmentManager** in the backend contains most of the backend comments as the other backend classes are fairly similar.
 
-## Project Docuementation
+## Project Documentation
 See the Specification and Design pdf for an example on how to do certain parts of your design document
 
 Note the foloowing:
