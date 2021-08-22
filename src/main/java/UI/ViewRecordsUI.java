@@ -166,6 +166,9 @@ public class ViewRecordsUI extends javax.swing.JFrame {
 		//The home button "destroys" this frame to go back to the main
 		//menu
 		dispose();
+
+		//create a new main menu screen.
+		new MainMenuUI().setVisible(true);
         }//GEN-LAST:event_homeButtonActionPerformed
 
         private void getRecordsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_getRecordsButtonActionPerformed

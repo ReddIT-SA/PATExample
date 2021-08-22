@@ -137,18 +137,23 @@ public class MainMenuUI extends javax.swing.JFrame {
         private void manageStudentsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_manageStudentsButtonActionPerformed
 		//This is how you "open" a new screen based on a button press
 		new ManageStudentsUI().setVisible(true);
+		//and close this screen.
+		dispose();
         }//GEN-LAST:event_manageStudentsButtonActionPerformed
 
         private void manageAssessmentsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_manageAssessmentsButtonActionPerformed
 		new ManageAssessmentsUI().setVisible(true);
+		dispose();
         }//GEN-LAST:event_manageAssessmentsButtonActionPerformed
 
         private void addRecordButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addRecordButtonActionPerformed
 		new AddRecordUI().setVisible(true);
+		dispose();
         }//GEN-LAST:event_addRecordButtonActionPerformed
 
         private void viewRecordsButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_viewRecordsButtonActionPerformed
 		new ViewRecordsUI().setVisible(true);
+		dispose();
         }//GEN-LAST:event_viewRecordsButtonActionPerformed
 
 	/**

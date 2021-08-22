@@ -179,6 +179,9 @@ public class ManageStudentsUI extends javax.swing.JFrame {
 		//The home button "destroys" this frame to go back to the main
 		//menu
 		dispose();
+
+		//create a new main menu screen.
+		new MainMenuUI().setVisible(true);
         }//GEN-LAST:event_homeButtonActionPerformed
 
         private void addButtonActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_addButtonActionPerformed
