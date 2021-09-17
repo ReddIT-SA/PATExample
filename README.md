@@ -68,6 +68,26 @@ Project is created with:
 ## Creating an exe
 * Make sure you have all the tools above installed.
 * Download the source code and add it to Netbeans as a Netbeans project (I recommend cloning it with GitHub).
+* Add the following into your pom.xml file under the `<properties>` tag
+```xml
+  <build>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>2.4</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <mainClass>UI.MainMenuUI</mainClass>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+        </plugins>
+    </build>
+ ```
 * Right click on the project in NetBeans and select 'Clean and Build'. This creates a .jar of the project in the PATExample/target directory.
 * The above .jar file contains all the src code only.
 * The launch4j packages the .jar into a single an .exe file. Note the settings below. There are FIVE inputs you need to add to the program before clicking the gear button.
